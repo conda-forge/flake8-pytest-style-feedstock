@@ -1,5 +1,5 @@
 {% set name = "flake8-pytest-style" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flake8-pytest-style-{{ version }}.tar.gz
-  sha256: 56af62da468a547560a9f455c7f205449ed03e8f8a42f85373180e91c1031c40
+  sha256: c1175713e9e11b78cd1a035ed0bca0d1e41d09c4af329a952750b61d4194ddac
 
 build:
   number: 0
@@ -30,7 +30,7 @@ test:
     - flake8_pytest_style.visitors
   commands:
     - pip check
-    - 'flake8 --version | grep flake8-pytest-style'
+    - flake8 --version | grep flake8-pytest-style
   requires:
     - flake8
     - m2-grep  # [win]
