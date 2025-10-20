@@ -1,5 +1,5 @@
 {% set name = "flake8-pytest-style" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: fee6befdb5915d600ef24e38d48a077d0dcffb032945ae0169486e7ff8a1079a
+  sha256: d23a33294bccfb9f1b11aaf5212256727b299b9c9b17cf21e230c52c1095a468
 
 build:
   number: 0
