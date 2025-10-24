@@ -22,7 +22,7 @@ requirements:
     - python {{ python_min }}
   run:
     - flake8-plugin-utils >=1.3.2,<2.0.0
-    - python >={{ python_min }},<4.0.0
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -38,7 +38,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://pypi.org/project/flake8-pytest-style
+  home: https://github.com/m-burst/flake8-pytest-style
   summary: A flake8 plugin checking common style issues or inconsistencies with pytest-based tests.
   license: MIT
   license_file: LICENSE
