@@ -3,7 +3,7 @@ About flake8-pytest-style-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-pytest-style-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pypi.org/project/flake8-pytest-style
+Home: https://github.com/m-burst/flake8-pytest-style
 
 Package license: MIT
 
